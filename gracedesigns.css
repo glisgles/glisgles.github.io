@@ -1,0 +1,64 @@
+h1{
+	color: #717375;
+	font-size: 30px;
+	font-family: Myriad Pro, Arial, Helvetica, sans-serif;
+	font-weight: 100;
+	text-align: center;	
+	padding-bottom: 15px;
+	padding-top: 10px;
+}
+h2{
+	color: #ffffff;
+	font-size: 26px;
+	font-family: Myriad Pro, Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-weight: 300;
+	
+}
+p{
+	font-size: 14px;
+	font-family: Myriad Pro, Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	color: #ffffff;
+	line-height: 1.3em;
+	text-align: justify;
+	padding-top: 20px;
+}
+
+html, body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+
+.info{
+	background-color: #15949E;
+}
+
+h2.heavy-line{
+	border-bottom: 2px solid #481144;
+	padding-bottom: 7px;
+}
+
+.column{
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+@media (min-width: 992px) { 
+	.line{
+		border-right: 1px solid rgb(255, 255, 255);
+		border-right: 1px solid rgba(255, 255, 255, .5);
+		-webkit-background-clip: padding-box; /* for Safari */
+		background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+	}
+	
+	.row-eq-height {
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display: flex;
+	}
+}
