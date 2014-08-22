@@ -9,7 +9,7 @@ h1 {
 	font-size: 30px;
 	font-family: Myriad Pro, Arial, Helvetica, sans-serif;
 	font-weight: 100;
-	text-align: center;	
+	text-align: center;
 	padding-bottom: 15px;
 	padding-top: 10px;
 }
@@ -19,7 +19,7 @@ h2 {
 	font-family: Myriad Pro, Arial, Helvetica, sans-serif;
 	text-align: center;
 	font-weight: 300;
-	
+
 }
 
 h3	{
@@ -43,6 +43,7 @@ p{
 header {
 	background-image: url( "assets/gd_header.jpg" );
 	background-color: #958ad1;
+	opacity: .5;
 }
 
 .info {
@@ -61,14 +62,14 @@ h2.heavy-line {
 	padding-top: 10px;
 }
 
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
 	.line {
 		border-right: 1px solid rgb(255, 255, 255);
 		border-right: 1px solid rgba(255, 255, 255, .5);
 		-webkit-background-clip: padding-box; /* for Safari */
 		background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
 	}
-	
+
 	.row-eq-height {
 		display: -webkit-box;
 		display: -webkit-flex;
@@ -92,7 +93,15 @@ h2.heavy-line {
 		display: flex;
 	}
 }
-.ddd{
+.banner{
 	background-color: #481144;
 	margin-top: 50px;
+}
+
+.header {
+  display: inline-block;
+  background-image: url(../assets/gd_header.jpg);
+  background-size: 100% 100%;
+  background-color: transparent;
+  background-repeat: no-repeat;
 }
