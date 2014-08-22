@@ -22,6 +22,14 @@ h2 {
 	
 }
 
+h3	{
+	color: #fff;
+	font-size: 45px;
+	font-family: Myriad Pro, Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	text-align: center;
+}
+
 p{
 	font-size: 14px;
 	font-family: Myriad Pro, Arial, Helvetica, sans-serif;
@@ -68,6 +76,23 @@ h2.heavy-line {
 		display: flex;
 	}
 }
+
+@media (min-width: 992px) {
+	.line2 {
+		border-right: 25px solid rgb(255, 255, 255);
+		border-right: 25px solid rgba(255, 255, 255, 1.0);
+		-webkit-background-clip: padding-box; /* for Safari */
+		background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+	}
+
+	.row-eq-height {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+	}
+}
 .ddd{
 	background-color: #481144;
+	margin-top: 50px;
 }
