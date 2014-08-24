@@ -43,7 +43,7 @@ p{
 header {
 	background-image: url( "assets/gd_header.jpg" );
 	background-color: #958ad1;
-	opacity: .5;
+	/*opacity: .6;*/
 }
 
 .info {
