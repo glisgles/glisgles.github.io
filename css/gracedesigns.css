@@ -28,6 +28,7 @@ h3	{
 	font-family: Myriad Pro, Arial, Helvetica, sans-serif;
 	font-weight: 300;
 	text-align: center;
+	padding-top: 12px;
 }
 
 p{
@@ -41,9 +42,7 @@ p{
 }
 
 header {
-	background-image: url( "assets/gd_header.jpg" );
-	background-color: #958ad1;
-	/*opacity: .6;*/
+	padding-top: 70px;
 }
 
 .info {
@@ -61,6 +60,35 @@ h2.heavy-line {
 	padding-bottom: 20px;
 	padding-top: 10px;
 }
+
+.none {
+background-color: none;
+border-color: none;}
+
+.jumbo{
+	background-image: url('../assets/gd_header.jpg');
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	height: 500px;
+	margin-top: 100px;
+}
+
+.negative{
+	padding-bottom: -50px;}
+
+.top{
+	padding-top: 30px;}
+
+.logo{
+	align-content: left;
+}
+
+
+
+
+
+
 
 @media (min-width: 992px) {
 	.line {
@@ -95,7 +123,8 @@ h2.heavy-line {
 }
 .banner{
 	background-color: #481144;
-	margin-top: 50px;
+	height: 70px;
+	opacity: .8;
 }
 
 .header {
@@ -108,4 +137,9 @@ h2.heavy-line {
 
 .navbar{
 	padding-top: 20px;
+}
+
+
+.space{
+
 }
